@@ -16,7 +16,7 @@ html, body {
   width: 50%;
   height: 100%;
 }
-.logo{
+.logo-ps{
   width: 29%;
 }
 
@@ -74,29 +74,46 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 150vh;
+  height: 200vh;
+  margin-top: 7%;
 }
 
+
 /*.projetos{
-  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-family: 'Roboto-Bold', sans-serif;
+
 }*/
 #parceiros div{
-  width: 22%;
-  height: 40%;
-  margin-top: 5%;
-  margin-left: 2%;
+  width: 28%;
+  height: 15%;
+  margin: 0;
+  margin-left: 4%;
+  margin-bottom: 10%;
 }
-#parceiros div img{
-  width: 100%;
-  height: 40%;
+.logo{
+  width: 50%;
+  height: 55%;
+  margin: 0;
+  margin-left: 20%;
 }
 #parceiros div h3 {
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto-Bold', sans-serif;
   font-size: 1em;
   color: #333;
+  margin: 3%;
+  margin-left: 0;
 }
 
 #parceiros div p{
-  font-size: 1em;
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 0.9em;
   color: #333;
 }
 
@@ -110,7 +127,7 @@ html, body {
 }
 
 footer{
-    margin-top: 5%;
+    margin-top: 3%;
     padding-left: 7%;
 }
 .logo-precisaser{
@@ -125,7 +142,8 @@ footer{
 .precisa{
   width: 43%;
   font-family: 'Roboto-Light', sans-serif;
-  font-size: 1em;
+  font-weight: 400;
+  font-size: 0.9em;
   color: #333;
   margin: 0, 25px;
 }
