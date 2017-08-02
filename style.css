@@ -10,7 +10,7 @@ html, body {
   min-height: 60vh;
 }
 
-.precisaser{
+.div-precisaser{
   display: flex;
   justify-content: center;
   width: 50%;
@@ -25,7 +25,7 @@ html, body {
   height: 100%;
   margin-top: 4%;
 }
-.instituto{
+.tittle-instituto{
   font-family: 'Roboto-Bold', sans-serif;
   font-size: 1.75em;
   color: #ED1164;
@@ -81,7 +81,7 @@ html, body {
   justify-content: center;
   align-content: center;
   width: 100%;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 
 
@@ -132,11 +132,12 @@ html, body {
 
 #map{
     width: 100%;
-    height: 80vh;
+    min-height: 60vh;
+    margin-top: 3%;
 }
 .maps {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 footer{
@@ -159,6 +160,84 @@ footer{
   font-size: 0.9em;
   color: #333;
   margin: 0, 25px;
+  padding-bottom: 2%;
 }
 
 
+ @media (max-width: 640px){
+        html, body{
+          width: 100%;
+          overflow: scroll;
+        }
+        #home{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          min-height: 90vh;
+        }
+        .div-precisaser{
+          width: 100%;
+        }
+        .logo-ps{
+          width: 50%;
+        }
+        .vainaweb{
+          width: 100%;
+        }
+        .tittle-instituto{
+          width: 100%;
+          font-size: 1.5em;
+          padding-left: 3%;
+          margin: 0;
+          margin-top: 8%;
+          margin-bottom: 5%;
+        }
+        .historia{
+          width: 95%;
+          padding-left: 3%;
+          font-size: 17px;
+          margin: 0;
+        }
+        #azul{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          min-height: 150vh;
+        }
+        .eventos{
+          width: 95%;
+        }
+        .vnb{
+          width: 95%;
+          margin-left: 2%;
+        }
+        
+        #parceiros{
+          display: none;
+        }
+        footer{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding-left: 0;
+
+      }
+
+        .logo-precisaser{
+          width: 45%;
+          height: 20%;
+          margin-top: 5%;
+        }
+        .box{
+          width: 7%;
+          padding-right: 0;
+        }
+        .precisa{
+          width: 85%;
+          font-size: 16px;
+          margin-top: 5%;
+          padding-bottom: 0;
+        }
+
+    }
