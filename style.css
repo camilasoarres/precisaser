@@ -216,6 +216,9 @@ footer{
           align-items: center;
           min-height: 150vh;
         }
+        #azul h2{
+          width: 80%;
+        }
         .eventos{
           width: 95%;
           margin-right: 0;
@@ -229,6 +232,7 @@ footer{
           display: none;
         }
         #map{
+          min-height: 90%;
           margin: 0;
         }
         footer{
