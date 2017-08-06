@@ -21,9 +21,10 @@ html, body {
 }
 
 .vainaweb{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 50%;
-  height: 100%;
-  margin-top: 4%;
 }
 .tittle-instituto{
   font-family: 'Roboto-Bold', sans-serif;
@@ -144,7 +145,7 @@ footer{
     display: flex;
     align-self: baseline; 
     /*justify-content: space-around;*/
-    margin-top: 3%;
+    margin-top: 2.5%;
     padding-left: 7%;
 }
 .plugin-responsivo{
@@ -186,6 +187,7 @@ footer{
         }
         .div-precisaser{
           width: 100%;
+
         }
         .logo-ps{
           width: 50%;
@@ -194,18 +196,19 @@ footer{
           width: 100%;
         }
         .tittle-instituto{
-          width: 100%;
+          width: 95%;
           font-size: 1.5em;
           padding-left: 3%;
           margin: 0;
           margin-top: 8%;
-          margin-bottom: 5%;
+          
         }
         .historia{
-          width: 95%;
+          width: 96%;
           padding-left: 3%;
           font-size: 17px;
           margin: 0;
+          margin-top: 8%;
         }
         #azul{
           flex-direction: column;
@@ -234,10 +237,9 @@ footer{
           justify-content: center;
           flex-direction: column;
           padding: 0;
-          margin-top: 7%;
         }
         .p-precisaser{
-          width: 100%;
+          width: 95%;
           padding-right: 0;
           margin-right: 0;
         }
