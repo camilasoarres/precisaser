@@ -31,10 +31,10 @@ html, body {
   font-size: 1.75em;
   color: #ED1164;
 }
-.historia{
+.sobre-instituto{
   font-family: 'Roboto-Medium', sans-serif;
   font-size: 0.9em;
-  width: 85%;
+  width: 90%;
 }
 
 #azul{
@@ -92,7 +92,7 @@ html, body {
   font-size: 1.5em;
   font-family: 'Roboto-Medium', sans-serif;
   color: #555;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .item-parceiros{
@@ -178,7 +178,7 @@ footer{
 }
 
 
- @media (max-width: 640px){
+ @media (max-width: 800px){
         #home{
           flex-direction: column;
           justify-content: center;
@@ -187,7 +187,6 @@ footer{
         }
         .div-precisaser{
           width: 100%;
-
         }
         .logo-ps{
           width: 50%;
@@ -196,54 +195,74 @@ footer{
           width: 100%;
         }
         .tittle-instituto{
-          width: 95%;
+          width: 100%;
           font-size: 1.5em;
-          padding-left: 3%;
-          margin: 0;
+          text-align: center;
           margin-top: 8%;
           
         }
-        .historia{
-          width: 96%;
-          padding-left: 3%;
+        .sobre-instituto{
+          width: 95%;
+          padding-left: 5%;
           font-size: 17px;
           margin: 0;
-          margin-top: 8%;
         }
         #azul{
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          min-height: 150vh;
+          min-height: 110vh;  
+        }
+        #azul div{
+          margin-top: 0;
         }
         #azul h2{
           width: 80%;
         }
         .eventos{
           width: 95%;
-          margin-right: 0;
+
         }
         .vnb{
           width: 95%;
           margin-left: 4%;
         }
-        
-        #parceiros{
-          display: none;
+
+
+        .item-parceiros{
+          width: 50%;
+          margin: 0;
+          margin-bottom: 4%;
+          /*text-align: center;*/
         }
+
+        .item-parceiros h3{
+          text-align: center;
+        }
+
+        .item-parceiros p{
+          width: 93%;
+          margin-left: 2%;
+          /*line-height: 24px;*/
+        }
+
+
+
         #map{
-          min-height: 90%;
+          min-height: 100%;
           margin: 0;
         }
+      
         footer{
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
           padding: 0;
+          margin-top: 5%;
         }
         .p-precisaser{
-          width: 95%;
+          width: 98%;
           padding-right: 0;
           margin-right: 0;
         }
@@ -273,4 +292,60 @@ footer{
           display: block;
         }
 
+    }
+
+@media (max-width: 640px){
+
+        .tittle-instituto{
+          width: 95%;
+          padding-left: 3%;
+          
+        }
+        .sobre-instituto{
+          width: 95%;
+          padding-left: 3%;
+          margin-top: 8%;
+        }
+        #azul{
+          min-height: 130vh;
+        }
+        .eventos{
+          margin-right: 0;
+        }
+
+        .item-parceiros{
+          width: 100%;
+          margin-top: 4%;
+        }
+
+        .item-parceiros h3{
+          text-align: center;
+        }
+
+        .item-parceiros p{
+          width: 95%;
+          line-height: 24px;
+        }
+
+        .p-precisaser{
+          width: 95%;
+        }
+
+        .logo-precisaser{
+          width: 40%;
+          height: 25%;
+        }
+        .box{
+          width: 10%;
+          height: 10%;
+          padding-left: 20%;
+
+          padding-right: 3%;
+        }
+        .precisa{
+          width: 93%;
+          font-size: 16px;
+          margin-top: 5%;
+          padding-left: 4%;
+          margin-bottom: 7%;
     }
