@@ -34,7 +34,7 @@ html, body {
 .sobre-instituto{
   font-family: 'Roboto-Medium', sans-serif;
   font-size: 0.9em;
-  width: 90%;
+  width: 92%;
 }
 
 #azul{
@@ -47,13 +47,13 @@ html, body {
   margin-top: 40px;
 }
 .eventos{
-  width: 43%;
+  width: 45%;
   height: 100%;
   margin-left: 5%;
-  margin-right: 2%;
+  /*margin-right: 2%;*/
 }
 .vnb{
-  width: 43%;
+  width: 50%;
   height: 100%;
   margin: 0;
 }
@@ -75,7 +75,6 @@ html, body {
 
 
 
-
 #parceiros{
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +91,7 @@ html, body {
   font-size: 1.5em;
   font-family: 'Roboto-Medium', sans-serif;
   color: #555;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .item-parceiros{
@@ -121,32 +120,20 @@ html, body {
 .item-parceiros p{
   width: 100%;
   font-family: 'Roboto-Light', sans-serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #333;
+  line-height: 19px;
 }
-
-
-
-
-
 
 
 #map{
-    width: 100%;
-    min-height: 60vh;
-    margin-top: 3%;
-}
-.maps {
-    width: 100%;
-    height: 100%;
-}
-
-footer{
     display: flex;
-    align-self: baseline; 
-    /*justify-content: space-around;*/
-    margin-top: 2.5%;
-    padding-left: 7%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/map.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+
 }
 .plugin-responsivo{
   display: none;
@@ -155,28 +142,29 @@ footer{
   display: block;
 }
 .p-precisaser{
-  width: 35%;
-  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+  height: 42%;
+  background-color: #fff;
 }
-.logo-precisaser{
-  width: 58%;
-  height: 18%;
+.contact-precisaser{
+  width: 50%;
 }
-.box{
-  width: 20%;
-  height: 20%;
+.tittle-contact{
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #333;
 }
-.precisa{
-  width: 100%;
+.contact-precisaser ul li{
   font-family: 'Roboto-Light', sans-serif;
-  font-weight: 400;
   font-size: 0.8em;
   color: #333;
-  padding-left: 4%;
-  margin-top: 7%;
-  line-height: 20px;
+  line-height: 29px;
+  list-style-type: none;
 }
-
 
  @media (max-width: 800px){
         #home{
@@ -203,7 +191,7 @@ footer{
         }
         .sobre-instituto{
           width: 95%;
-          padding-left: 5%;
+          padding-left: 3%;
           font-size: 17px;
           margin: 0;
         }
@@ -233,7 +221,6 @@ footer{
           width: 50%;
           margin: 0;
           margin-bottom: 4%;
-          /*text-align: center;*/
         }
 
         .item-parceiros h3{
@@ -243,53 +230,35 @@ footer{
         .item-parceiros p{
           width: 93%;
           margin-left: 2%;
-          /*line-height: 24px;*/
         }
 
 
 
         #map{
-          min-height: 100%;
-          margin: 0;
+          min-height: 50vh;
+          background-size: 180vh;
         }
-      
-        footer{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          padding: 0;
-          margin-top: 5%;
-        }
+        
         .p-precisaser{
-          width: 98%;
-          padding-right: 0;
-          margin-right: 0;
-        }
-
-        .logo-precisaser{
-          width: 40%;
-          height: 25%;
-        }
-        .box{
-          width: 10%;
-          height: 10%;
-          padding-left: 20%;
-
-          padding-right: 3%;
-        }
-        .precisa{
-          width: 93%;
-          font-size: 16px;
-          margin-top: 5%;
-          padding-left: 4%;
-          margin-bottom: 7%;
-        }
-        .plugin-facebook{
           display: none;
         }
         .plugin-responsivo{
           display: block;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .precisa{
+          padding-bottom: 5%;
+        }
+        .logo-precisaser{
+          width: 75%;
+          height: 20%;
+        }
+        .box{
+          width: 16%;
+          height: 18%;
+          padding-right: 3%;
         }
 
     }
@@ -297,14 +266,14 @@ footer{
 @media (max-width: 640px){
 
         .tittle-instituto{
-          width: 95%;
+          width: 93%;
           padding-left: 3%;
           
         }
         .sobre-instituto{
-          width: 93%;
-          padding-left: 3%;
-          margin-top: 8%;
+          width: 96%;
+          margin-top: 7%;
+          line-height: 22px;
         }
         #azul{
           min-height: 130vh;
@@ -326,26 +295,8 @@ footer{
           width: 95%;
           line-height: 24px;
         }
-
-        .p-precisaser{
-          width: 95%;
+        .plugin-responsivo{
+          width: 90%;
         }
 
-        .logo-precisaser{
-          width: 40%;
-          height: 25%;
-        }
-        .box{
-          width: 10%;
-          height: 10%;
-          padding-left: 20%;
-
-          padding-right: 3%;
-        }
-        .precisa{
-          width: 93%;
-          font-size: 16px;
-          margin-top: 5%;
-          padding-left: 4%;
-          margin-bottom: 7%;
     }
